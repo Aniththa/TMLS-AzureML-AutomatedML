@@ -1,9 +1,8 @@
-# KDD'20: From Zero to AI Hero with Automated Machine Learning 
-### Presenters: 
+# Toronto Machine Learning Summit 2020
+## Workshop: Machine Learning Simplified: From Ideation to Deployment in Minutes with Automated Machine Learning
+
+### Presenter: 
 * Aniththa Umamahesan, Program Manager
-* Deepak Mukunthu Iyappan Babu,  Principal Program Manager
-* Cesar De la Torre Lorente, Principal Program Manager
-* Anup Shirgaonkar, Principal Data & Applied Scientist
 
 The content below is a guide for a self-paced lab to understand the E2E Automated Machine Learning capabilities both through the Python code experience and UI no-code experience. 
 
@@ -20,9 +19,9 @@ While it's not required, a basic understanding of Azure Machine Learning will be
 1. [Prerequisites](#prereqs)
 1. [Automated ML Introduction](#introduction)
 1. [The studio Introduction](#studio)
-1. [Lab Part 1. Train a regression model using the Automated ML UI](#automlUI)
+1. [Lab Part 1. Train a classification model using the Automated ML UI](#automlUI)
 1. [Setup a Compute Instance](#compute)
-1. [Lab Part 2. Train a classification model using Automated ML in JupyertLab](#train)
+1. [Lab Part 2. Train a forecasting model using Automated ML in JupyertLab](#train)
 1. [Next Steps](#complete)
 
 <a name="prereqs"></a>
@@ -86,8 +85,8 @@ Automated ML is supported by three execution environments:
 * Azure Databricks 
 
 <a name="automlUI"></a>
-## Lab Part 1. Train a regression model using the Automated ML UI
-In part 1 of the lab you will get to build an automated machine learning model using our UI. To get started head to [Lab 1](https://github.com/Aniththa/KDD-20-AutoML/blob/master/Lab%20Part%201%20-%20AutoML%20UI/Lab%20Part%201%20-%20AutoML%20UI.md) folder.
+## Lab Part 1. Train a classification model using the Automated ML UI
+In part 1 of the lab you will get to build an automated machine learning model using our UI. To get started head to [Lab 1](https://github.com/Aniththa/TMLS-AzureML-AutomatedML/blob/master/Lab%20Part%201%20-%20AutoML%20UI/Lab%20Part%201%20-%20AutoML%20UI.md) folder.
 
 <a name="compute"></a>
 ## Using Compute Instances - Jupyter based notebooks from a Azure Virtual Machine
@@ -116,11 +115,11 @@ To clone this git repository onto the workspace, follow the steps below:
 
 1. In the terminal window clone this repository by typing:
 ```
-       git clone https://github.com/Aniththa/KDD-20-AutoML.git
+       git clone https://github.com/Aniththa/TMLS-AzureML-AutomatedML.git
 ```
 4. You will be prompted to provide your github username and for your password you will need to provide a personal access token. Please follow the steps here to [create a personal access token.](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line) 
 
 <a name="train"></a>
 ## Lab Part 2. Train a classification model using Automated ML in JupyertLab
-In this part of the lab we will be covering how you can train a classification model in a code first experience with AutoML. To get started open **Lab Part 2 - AutoML Python SDK.ipynb** from the  Lab 2 folder in jupyter lab.
+In this part of the lab we will be covering how you can train a forecasting model in a code first experience with AutoML. To get started open **Lab Part 2 - AutoML Python SDK.ipynb** from the  Lab 2 folder in jupyter lab.
 
